@@ -1,0 +1,172 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+    padding:5% 16%;
+}
+#title{
+    background:#ff4c68;
+    color:white;
+}
+
+h1{
+    font-family: 'Montserrat-Black'sans-serif;
+     font-weight: 900;
+    size:4.5rem; 
+    line-height:1.5 ;
+    
+}
+.button-1{
+    margin:23% 1%;
+    max-width:73%;
+    padding:4px 3px; 
+}
+.navbar-brand{
+    font-family: 'ubantu',sans-serif;
+    font-size: 2rem;
+    font-weight:bold ;
+}
+.nav-item{
+    padding:0 3% 5% 5%;
+    font-family: 'Montserrat-light',sans-serif;
+}
+.navbar{
+    padding:0  0 8%;
+    z-index: 1;
+}
+.nav-link{
+    font-size:1.03rem;
+}
+.dog-image{
+    width:28%;
+    transform: rotate(25deg);
+    position:absolute;
+}
+#features{
+    padding:7% 15%;
+   text-align: center;
+   background-color: #fff;
+   position: relative;
+   z-index: 1;
+}
+h2{
+    font-family: 'montserrat-Bold',sans-serif;
+    font-size:2.7rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-weight: 600;
+    font-size:1.5rem;
+}
+p{
+    color:#8f8f8f;
+    font-size:0.85rem;
+      
+}
+.icon{
+   color:#eb8392;
+   margin-bottom: 1.5rem;
+
+}
+.icon:hover{
+    color:#fc6d82;
+}
+#testimonials{ 
+    text-align: center;
+    background-color:#ef8172;
+    color:#fff;
+}
+.test-image{
+   width:10%;
+   border-radius: 50%;
+   margin:20px;
+}
+#press{
+    background-color:#ef8172;
+    padding:0% 12%;
+    text-align:center;
+
+}
+.photo{
+    width:20%;
+    margin:10px 20px 60px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding:10% 12%;
+    text-align: center;
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.sixe ,.six{
+    width:100%;
+    height:15%;
+}
+.six{
+    margin-top:13%;
+}
+.card-body{
+    text-align: center;
+    justify-content: left;
+}
+.card{
+    margin-top: 10%;
+    border:1px solid;
+}
+#cta{
+    background-color: #ff4c68;
+    color:white;
+    text-align: center;
+    padding:7% 16%;
+}
+.but{
+   margin: 4% 2% 2%;
+}
+#footer{
+    padding:7% 15%;
+    text-align:center;
+}
+.ik{
+    margin:4% 1%;
+}
+
+
+/* MEDIA QURIES  */
+@media  (max-width:992px)
+{
+    .dog-image{
+        width:60%;
+        transform: rotate(0deg);
+        position:static;
+        margin-left:16%;
+    }
+
+   h2{
+    font-size:medium;
+   }
+
+  .grid-row{
+    text-align: center;
+    margin-left: 8%;
+  }
+  .footer p{
+    font-size: 1rem;
+  }
+  .but{
+    width:60%;
+   }
+  .pap{
+    font-size:1.6rem;
+  }
+  .pop{
+    font-size:1.3rem;
+  }
+}
